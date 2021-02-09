@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import {
   Form,
@@ -108,7 +110,7 @@ class AppNavBar extends React.Component {
                 <span className="navIconText">Jobs</span>
               </Col>
             </Nav.Link>
-            <Nav.Link className="navLinkCol">
+            <Nav.Link className="navLinkCol" as={Link} to="/chat">
               <Col className="navCol">
                 <RiMessage2Fill className="navIcon" />
                 <span className="navIconText">Messaging</span>

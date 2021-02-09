@@ -10,6 +10,7 @@ import Sidebar from "./Sidebar";
 import AppNavBar from "./AppNavBar";
 import "../styles/Home.css";
 import SinglePost from "./SinglePost";
+import ChatPage from "./ChatPage";
 
 export default class Home extends Component {
   state = {
