@@ -1,0 +1,82 @@
+.signupDiv {
+  background-color: #f3f2ef;
+  width: 100vw;
+  height: 100vh;
+}
+.signupBox {
+  width: 400px;
+  border-radius: 8px;
+}
+.signupCol {
+  background-color: white !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  padding: 2rem;
+}
+/* .signupCol h4 {
+  font-weight: 600;
+} */
+.signupCol span {
+  font-size: 12px;
+  text-align: center;
+}
+.signupCol a {
+  color: #0a66c2 !important;
+  font-weight: bold;
+  margin-top: 1rem auto 1rem 0;
+}
+.signupCol .signupBtn {
+  background-color: #0a66c2;
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  color: white;
+  font-weight: 500;
+  font-size: 0.8rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
+.signupCol .signupBtn:hover {
+  background-color: #09223b;
+}
+.signupCol .form-control {
+  border: 1px solid #111;
+  font-size: 1rem;
+  margin-top: 0;
+  padding-top: 2px;
+}
+.signupCol .form-label {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.signupCol .input-group-text {
+  color: grey;
+}
+
+/* .signupCol .inputToggle {
+  position: absolute;
+  margin-left: auto;
+  margin-right: 0.5rem;
+  right: 0;
+  top: 0;
+  transform: translateY(50%);
+  display: inline-block;
+  background-color: white;
+  color: #0a66c2;
+}  .signupCol .inputToggle:hover {
+  background-color: lightblue;
+} */
+@media screen and (max-width: 1160px) {
+  .signupDiv {
+    background-color: white;
+  }
+  .signupBox {
+    width: 100vw;
+  }
+  .signupCol {
+    max-width: 568px;
+  }
+}

@@ -1,0 +1,37 @@
+.expEntries {
+  list-style-type: none;
+}
+
+.exp:hover {
+  text-decoration: underline;
+}
+.editBtnExp {
+  position: absolute;
+  left: 94%;
+  margin-top: -0.5vw;
+}
+
+.roleExp {
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.workplaceExp {
+  font-size: 0.9rem;
+}
+
+.timeExp,
+.cityExp {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.descExp {
+  padding-top: 0.2vw;
+  font-size: 0.9rem;
+}
+
+.bio .cardProf {
+  border-radius: 8px;
+  margin-top: 32px !important;
+}

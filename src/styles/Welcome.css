@@ -1,0 +1,57 @@
+.boxNav {
+  padding-right: 218px;
+  padding-top: 4px;
+}
+.btnSign {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #408fdd;
+  border-color: #408fdd;
+  border-radius: 50px;
+  height: 45px;
+  width: 110px;
+  border: 1px solid;
+  transition: all 0.25s ease;
+}
+.btnSign:hover {
+  background-color: #3678b917;
+  box-shadow: 0px 0px 1px 1px inset;
+}
+.jnbtn1 {
+  margin-left: -50px;
+  height: 45px;
+  width: 110px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+}
+.jnbtn1:hover {
+  background-color: rgba(128, 128, 128, 0.473);
+}
+.jnbtn {
+  margin-left: -50px;
+  height: 45px;
+  width: 110px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+}
+.jnbtn:hover {
+  background-color: rgba(128, 128, 128, 0.473);
+}
+.wlcT {
+  font-family: sans-serif;
+  font-size: 56px;
+  font-weight: 200;
+  line-height: 70px;
+  color: #2977c9;
+}
+.wlcmImg {
+  margin-top: 50px;
+  width: 45vw;
+  display: block;
+  position: relative;
+  z-index: -9;
+}
